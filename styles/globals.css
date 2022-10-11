@@ -1,26 +1,19 @@
-html,
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Pacifico&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.logo {
+    font-family: 'Pacifico', cursive;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.link-hover li a:hover {
+    @apply border-b-2 border-b-Moody-blue text-gray-800;
+    padding-bottom: 8px;
+    transition: all 150ms ease-in-out;
 }
