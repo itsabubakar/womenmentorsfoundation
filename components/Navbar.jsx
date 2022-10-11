@@ -34,7 +34,7 @@ const Navbar = () => {
                 </ol>
 
                 <div className='z-30 xl:hidden' onClick={() => setNav(!nav)}>
-                    {nav ? '' : <AiOutlineMenu size={40} className="text-Moody-blue border border-4 rounded-full p-1" />}
+                    {nav ? '' : <AiOutlineMenu size={40} className="text-Moody-blue border-4 rounded-full p-1" />}
                 </div>
 
                 {/* Mobile Menu */}
