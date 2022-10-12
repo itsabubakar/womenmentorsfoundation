@@ -10,7 +10,7 @@ import Newsletter from '../components/Newsletter'
 const About = () => {
     return (
         <div>
-            <OtherHeader src={img} text={"This is Women Mentors Foundation"} />
+            <OtherHeader bg={"about-bg"} src={img} text={"This is Women Mentors Foundation"} />
             <AboutText />
             <Newsletter />
         </div>

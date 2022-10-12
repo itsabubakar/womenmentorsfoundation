@@ -7,8 +7,8 @@ const Article = ({ border, img }) => {
         <Image src={img} width={500} height={300} />
       </div>
       <div className="px-5 py-3">
-        <h2 className="text-2xl text-gray-800">Women making a difference</h2>
-        <p className="mt-4 text-gray-600">Grace Jacobs</p>
+        <h2 className="text-xl xl:text-2xl text-gray-800">Women making a difference</h2>
+        <p className="mt-4 text-gray-600 text-base">Grace Jacobs</p>
       </div>
     </div>
   )
