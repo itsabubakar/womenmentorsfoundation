@@ -6,7 +6,7 @@ const Footer = () => {
     const router = useRouter()
     return (
         <div>
-            <div className="flex items-center justify-between mt-20 mx-32">
+            <div className="flex flex-col xl:flex-row gap-y-10 items-center justify-between mt-20 mx-32">
                 {/* logo */}
                 <div className="max-w-[100px]">
                     <div className="logo text-xl text-Moody-blue">Women </div>
@@ -15,7 +15,7 @@ const Footer = () => {
                 </div>
 
                 {/* links */}
-                <ol className="flex gap-x-10 items-center uppercase text-gray-700 link-hover text-sm">
+                <ol className="flex flex-wrap gap-2 items-center uppercase text-gray-700 link-hover text-sm justify-center">
                     <li><Link href={'/about'}><a className={router.pathname == "/about" ? "border-b-2 border-b-Moody-blue pb-2" : ""}>About</a></Link></li>
                     <li><Link href={'/membership'}><a className={router.pathname == "/membership" ? "border-b-2 border-b-Moody-blue pb-2" : ""}>Membership</a></Link></li>
                     <li><Link href={'/partnership'}><a className={router.pathname == "/partnership" ? "border-b-2 border-b-Moody-blue pb-2" : ""}>Partnership</a></Link></li>
