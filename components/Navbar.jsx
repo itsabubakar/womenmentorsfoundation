@@ -39,9 +39,9 @@ const Navbar = () => {
 
                 {/* Mobile Menu */}
 
-                <div className={nav ? "fixed top-0 left-0 right-0 bottom-0 flex flex-col items-center w-full h-screen bg-white  pt-[50px] ease-in-out duration-100" : 'hidden top-0 left-[100%] right-0 bottom-0 flex flex-col items-center w-full h-screen bg-white  pt-[50px] ease-in-out duration-100'}>
+                <div className={nav ? "fixed top-0 left-0 right-0 bottom-0 flex flex-col items-center w-full h-screen bg-white  pt-[50px] ease-in-out duration-100" : 'hidden top-0 left-[100%] right-0 bottom-0 flex-col items-center w-full h-screen bg-white  pt-[50px] ease-in-out duration-100'}>
                     <div className='mb-4 ml-auto mr-[30px]' onClick={() => setNav(!nav)}>
-                        <AiOutlineClose size={40} className="text-Moody-blue border border-4 rounded-full p-1" />
+                        <AiOutlineClose size={40} className="text-Moody-blue border-4 rounded-full p-1" />
                     </div>
 
                     <ol className="flex flex-col gap-y-5 items-center uppercase text-gray-700 link-hover">

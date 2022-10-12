@@ -7,7 +7,7 @@ const rights = () => {
         <div>
             <Header
                 title={"Womens' Right"}
-                text={"More girls are going to school, fewer girls are forced into early marriage, more women are serving in parliament and positions of leadership, and laws are being reformed to advance gender equality."} />
+                text={"Laws are being reformed to advance gender equality."} />
             <RightsConc />
             <Newsletter />
         </div>
