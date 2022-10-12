@@ -8,7 +8,7 @@ const Hero = () => {
             <div className='flex justify-center gap-x-24 items-center mt-[100px]'>
                 <div className='max-w-[500px]'>
                     <h1 className='leading-tight uppercase text-[2.8rem] text-center font-bold text-gray-800'>Welcome to women <span className='border-b-4 border-b-Moody-blue'>mentors</span> foundation</h1>
-                    <h2 className='mt-2 font-medium text-gray-900 text-[1.5rem] text-center'>The foundation for women's rights, human rights, social justice, and environmental sustainability.</h2>
+                    <h2 className='mt-2 font-medium text-gray-900 text-[1.5rem] text-center'>The foundation for womens&apos; rights, human rights, social justice, and environmental sustainability.</h2>
                     <h2 className='mt-4 font-medium text-gray-900 text-[1.5rem] text-center'>We provide a foundation for women and girls to excel. </h2>
                     <div>
                         <form action="" className='flex mt-20 gap-x-2'>
@@ -25,7 +25,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className='rounded-full'>
-                    <Image src={hero} width={500} height={400} className='rounded' />
+                    <Image src={hero} width={500} height={400} className='rounded' alt='hero img' />
                 </div>
             </div>
             <BsArrowDownShort className='justify-self-center mt-14 text-gray-700' size={30} />

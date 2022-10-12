@@ -6,7 +6,7 @@ const Events = () => {
         <div className="flex justify-center mt-24">
             <div className="flex max-w-2xl">
                 <div>
-                    <Image src={img} width={200} height={200} />
+                    <Image src={img} width={200} height={200} alt="Event Image" />
                 </div>
                 <div className="ml-10">
                     <h2 className="mb-2 text-2xl text-gray-800">Women in Politics</h2>

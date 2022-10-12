@@ -19,7 +19,7 @@ const Navbar = () => {
 
                 <ol className="hidden xl:flex pl-10 gap-x-10 items-center uppercase text-gray-700 link-hover text-sm">
                     <li className=""><Link href={'/'}><a className={router.pathname == "/" ? "border-b-2 border-b-Moody-blue pb-2" : ""}>Home</a></Link></li>
-                    <li><Link href={'/rights'}><a className={router.pathname == "/rights" ? "border-b-2 border-b-Moody-blue pb-2" : ""}>Womens' right</a></Link></li>
+                    <li><Link href={'/rights'}><a className={router.pathname == "/rights" ? "border-b-2 border-b-Moody-blue pb-2" : ""}>Womens&apos; right</a></Link></li>
                     <li><Link href={'/wellness'}><a className={router.pathname == "/wellness" ? "border-b-2 border-b-Moody-blue pb-2" : ""}>Wellness</a></Link></li>
                     <li><Link href={'/movement'}><a className={router.pathname == "/movement" ? "border-b-2 border-b-Moody-blue pb-2" : ""}>Join the movement</a></Link></li>
 
@@ -46,7 +46,7 @@ const Navbar = () => {
 
                     <ol className="flex flex-col gap-y-5 items-center uppercase text-gray-700 link-hover">
                         <li onClick={() => setNav(!nav)}><Link href={'/'}><a className={router.pathname == "/" ? "border-b-2 border-b-Moody-blue" : ""}>Home</a></Link></li>
-                        <li onClick={() => setNav(!nav)}><Link href={'/rights'}><a className={router.pathname == "/rights" ? "border-b-2 border-b-Moody-blue" : ""}>Womens' right</a></Link></li>
+                        <li onClick={() => setNav(!nav)}><Link href={'/rights'}><a className={router.pathname == "/rights" ? "border-b-2 border-b-Moody-blue" : ""}>Womens&apos; right</a></Link></li>
                         <li onClick={() => setNav(!nav)}><Link href={'/events'}><a className={router.pathname == "/events" ? "border-b-2 border-b-Moody-blue" : ""}>Wellness</a></Link></li>
                         <li onClick={() => setNav(!nav)}><Link href={'/movement'}><a className={router.pathname == "/movement" ? "border-b-2 border-b-Moody-blue" : ""}>Join the movement</a></Link></li>
 

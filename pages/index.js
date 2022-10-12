@@ -11,7 +11,7 @@ export default function Home() {
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Women Mentors' Foundation - Homepage</title>
+        <title>Women Mentors&apos; Foundation - Homepage</title>
       </Head>
       <main>
         <Hero />
