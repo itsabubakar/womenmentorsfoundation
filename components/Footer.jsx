@@ -1,6 +1,8 @@
 import Link from "next/link"
 import { useRouter } from "next/router"
 import { BsFacebook, BsInstagram, BsYoutube } from 'react-icons/bs'
+import logo from '../public/images/logo.png'
+import Image from "next/image"
 
 const Footer = () => {
     const router = useRouter()
@@ -8,10 +10,8 @@ const Footer = () => {
         <div>
             <div className="flex flex-col xl:flex-row gap-y-10 items-center justify-between mt-20 mx-32">
                 {/* logo */}
-                <div className="max-w-[100px]">
-                    <div className="logo text-xl text-Moody-blue">Women </div>
-                    <div className="logo -mt-2 text-xl text-Sail">Mentors </div>
-                    <div className="logo -mt-2 text-xl text-Moody-blue">Foundation</div>
+                <div className="rounded">
+                    <Image src={logo} width={200} height={100} />
                 </div>
 
                 {/* links */}
@@ -37,7 +37,7 @@ const Footer = () => {
 
             </div>
             <div className="text-center my-3 text-gray-400 text-sm">
-                <p>© Women Mentors Foundation 2022</p>
+                <p>© Women Models and Mentors 2022</p>
             </div>
         </div>
     )

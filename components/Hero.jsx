@@ -7,7 +7,7 @@ const Hero = () => {
         <div className='grid'>
             <div className='xl:flex-row flex-col flex justify-center gap-x-24 items-center mt-[100px]'>
                 <div className='max-w-[500px] mx-5'>
-                    <h1 className='leading-[45px] xl:leading-tight uppercase text-3xl xl:text-[2.8rem] text-center font-bold text-gray-800'>Welcome to women <span className='border-b-4 border-b-Moody-blue'>mentors</span> foundation</h1>
+                    <h1 className='leading-[45px] xl:leading-tight uppercase text-3xl xl:text-[2.8rem] text-center font-bold text-gray-800'>Welcome to women <span className='border-b-4 border-b-Moody-blue'>models</span> & <span className='border-b-4 border-b-Moody-blue'>mentors</span> foundation</h1>
                     <h2 className='mt-4 xl:mt-2 font-medium text-gray-900 text-2xl xl:text-[1.5rem] text-center'>-The foundation for womens&apos; rights, human rights, social justice, and environmental sustainability.</h2>
                     <h2 className='mt-4 font-medium text-gray-900 text-2xl xl:text-[1.5rem] text-center'>-We provide a foundation for women and girls to excel. </h2>
                     <div>

@@ -3,7 +3,7 @@ import { FaUserFriends } from 'react-icons/fa'
 
 const PartnershipText = () => {
     return (
-        <div className='flex mx-24 gap-x-24 justify-center'>
+        <div className='flex flex-wrap mx-5 md:mx-24 gap-y-20 gap-x-24 justify-center'>
             <div className='max-w-[400px]'>
                 <GiPayMoney size={50} className="text-Moody-blue" />
                 <h2 className='underline decoration-Sail underline-offset-[9px] text-3xl font-medium mb-4 mt-4 text-gray-800'>Sponsor Visionaries </h2>

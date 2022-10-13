@@ -2,6 +2,8 @@ import Link from "next/link"
 import { useRouter } from "next/router"
 import { useState } from "react"
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import logo from '../public/images/logo.png'
+import Image from "next/image";
 
 
 const Navbar = () => {
@@ -10,11 +12,9 @@ const Navbar = () => {
 
     return (
         <div className={nav ? "relative left-0 top-0 w-full z-10 ease-in-out duration-100" : "relative left-0 top-0 w-full z-10 ease-in-out duration-100"}>
-            <div className="flex px-10 py-5 items-center justify-between">
-                <div className="max-w-[100px]">
-                    <div className="logo text-xl text-Moody-blue">Women </div>
-                    <div className="logo -mt-2 text-xl text-Sail">Mentors </div>
-                    <div className="logo -mt-2 text-xl text-Moody-blue">Foundation</div>
+            <div className="flex px-10  items-center justify-between border-b-2 pb-1">
+                <div className="rounded pt-5">
+                    <Image src={logo} width={200} height={80} />
                 </div>
 
                 <ol className="hidden xl:flex pl-10 gap-x-10 items-center uppercase text-gray-700 link-hover text-sm">
@@ -47,7 +47,7 @@ const Navbar = () => {
                     <ol className="flex flex-col gap-y-5 items-center uppercase text-gray-700 link-hover">
                         <li onClick={() => setNav(!nav)}><Link href={'/'}><a className={router.pathname == "/" ? "border-b-2 border-b-Moody-blue" : ""}>Home</a></Link></li>
                         <li onClick={() => setNav(!nav)}><Link href={'/rights'}><a className={router.pathname == "/rights" ? "border-b-2 border-b-Moody-blue" : ""}>Womens&apos; right</a></Link></li>
-                        <li onClick={() => setNav(!nav)}><Link href={'/events'}><a className={router.pathname == "/events" ? "border-b-2 border-b-Moody-blue" : ""}>Wellness</a></Link></li>
+                        <li onClick={() => setNav(!nav)}><Link href={'/wellness'}><a className={router.pathname == "/wellness" ? "border-b-2 border-b-Moody-blue" : ""}>Wellness</a></Link></li>
                         <li onClick={() => setNav(!nav)}><Link href={'/movement'}><a className={router.pathname == "/movement" ? "border-b-2 border-b-Moody-blue" : ""}>Join the movement</a></Link></li>
 
                     </ol>
