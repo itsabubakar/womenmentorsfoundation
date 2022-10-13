@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const SectionOne = () => {
     return (
-        <div className="flex mt-20 flex-wrap xl:flex-nowrap gap-y-10 justify-center mb-14">
+        <div className="grid mt-20 grid-cols-1 sm:grid-cols-2 xl:flex xl:flex-nowrap gap-y-10 justify-center mb-14">
             <Link href={'/articles/articleOne'}>
                 <div className="w-full cursor-pointer hover:opacity-75 transition ease-in">
                     <div>
