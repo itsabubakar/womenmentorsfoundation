@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="flex flex-col xl:flex-row gap-y-10 items-center justify-between mt-20 mx-32">
                 {/* logo */}
                 <div className="rounded">
-                    <Image src={logo} width={200} height={100} />
+                    <Image alt="" src={logo} width={200} height={100} />
                 </div>
 
                 {/* links */}

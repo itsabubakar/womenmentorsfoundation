@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className={nav ? "relative left-0 top-0 w-full z-10 ease-in-out duration-100" : "relative left-0 top-0 w-full z-10 ease-in-out duration-100"}>
             <div className="flex px-10  items-center justify-between border-b-2 pb-1">
                 <div className="rounded pt-5">
-                    <Image src={logo} width={200} height={80} />
+                    <Image alt="" src={logo} width={200} height={80} />
                 </div>
 
                 <ol className="hidden xl:flex pl-10 gap-x-10 items-center uppercase text-gray-700 link-hover text-sm">

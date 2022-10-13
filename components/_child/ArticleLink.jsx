@@ -4,7 +4,7 @@ const Article = ({ border, img }) => {
   return (
     <div className={border ? 'border rounded shadow-md' : ''}>
       <div>
-        <Image src={img} width={500} height={300} />
+        <Image src={img} width={500} height={300} alt="alt" />
       </div>
       <div className="px-5 py-3">
         <h2 className="text-xl xl:text-2xl text-gray-800">Women making a difference</h2>
