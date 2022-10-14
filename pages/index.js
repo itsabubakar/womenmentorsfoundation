@@ -17,9 +17,9 @@ export default function Home() {
       <main>
         <Hero />
         <SectionOne />
-        <SectionTwo bg={'bg-fi'} title={'Women empowerment is necessary foundation for a peaceful, prosperous and sustainable world.'} text={"Women Models & Mentors Foundation offers memberships, courses, media partnerships, and other services are available to organizations in a digital age. It's all about amplifying your experiences, increasing your abilities, and collaborating to allow female voices to lead for good change."} />
-        <SectionTwo text={"We fill the gap between innovators and those who can help them make a long-term impact."} size={"4xl"} underline={'underline decoration-Moody-blue underline-offset-[9px] leading-[50px]'} />
-        <SectionTwo bg={'bg-t'} title={"What we are"} text={"Women Models & Mentors Foundation is life changing. It's a free environment for your thoughts and a place to be heard. It is a place to be surrounded by strong, talented, clever women that are passionate about change and want to make a difference in the world. "} />
+        <SectionTwo bg={'bg-fi'} title={'What we are'} text={"Our foundation is non-governmental, non-partisan and equips women in the areas of entrepreneurship, coaching, skills acquisition, politics, education, marital counselling, capacity building and a host of other areas."} />
+        <SectionTwo text={"Our members are role models, mentors and other progressive women drawn from different sectors of the society"} size={"4xl"} underline={'underline decoration-Moody-blue underline-offset-[9px] leading-[50px]'} />
+        <SectionTwo bg={'bg-t'} title={"Women empowerment is necessary foundation for a peaceful, prosperous and sustainable world."} text={"Women Models & Mentors Foundation offers memberships, courses, media partnerships, and other services are available to organizations in a digital age. It's all about amplifying your experiences, increasing your abilities, and collaborating to allow female voices to lead for good change."} />
       </main>
     </div>
   )

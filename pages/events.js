@@ -13,9 +13,6 @@ const events = () => {
             </Head>
             <OtherHeader text={"Upcoming Events"} bg={'event-bg'} />
             <Events />
-            <Events />
-            <Events />
-            <Events />
         </div>
     )
 }

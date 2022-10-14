@@ -9,8 +9,8 @@ const AboutText = () => {
 
                     <div className="grid justify-center mt-8">
                         <div className="max-w-xl leading-8 mx-5 md:mx-0">
-                            <p className="mb-4">Our effort is motivated by solidarity. That is why we link marginalized perspectives to a national audience that spans every state in the country, and why we collaborate with a diverse variety of partners to generate momentum for change movements.</p>
-                            <p className="">We believe that everyone has the potential to make a significant difference, which is why we focus on chances to act and the visionaries who inspire us.</p>
+                            <p className="mb-4">WOMEN MODELS & MENTORS FOUNDATION is a viable platform for women of all ages, races, classes, creeds, and professions with the primary objective of uplifting women in various positive spheres of life. The Foundation serves as a breeding ground for character modification and shaping the minds of young girls and women alike.</p>
+                            <p className=""> Our foundation is non-governmental, non-partisan and equips women in the areas of entrepreneurship, coaching, skills acquisition, politics, education, marital counselling, capacity building and a host of other areas.</p>
                             <div className="mt-20">
                                 <h3 className="text-2xl font-medium mb-4">We Educate</h3>
                                 <p className="mb-8">As a social enterprise specializing in storytelling, communications, digital movement building, and meaningful entrepreneurship, we provide digital courses and tailored programs to help aspiring women.</p>
@@ -33,7 +33,7 @@ const AboutText = () => {
                         </div>
                         <div>
                             <h2 className="text-center text-3xl font-medium mb-4">Our Vision</h2>
-                            <p>We envision a sustainable country built on peace and solidarity, free of prejudice, inequality, and violence.</p>
+                            <p>Our vision is to serve as a gateway to support women, enabling equal access to scarce resources and opportunities as they develop successful and sustainable careers/businesses. Our members are role models, mentors and other progressive women drawn from different sectors of the society.</p>
                         </div>
                         <div>
                             <h2 className="text-center text-3xl font-medium mb-4">Our Partnerships</h2>
