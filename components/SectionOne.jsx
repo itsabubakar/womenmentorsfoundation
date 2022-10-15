@@ -5,14 +5,14 @@ import Image from "next/image"
 const SectionOne = () => {
     return (
         <div className="grid mt-20 grid-cols-1 sm:grid-cols-2 xl:flex xl:flex-nowrap gap-y-10 justify-center mb-14">
-            <Link href={'/articles/articleOne'}>
+            <Link href={'/articles/awards'}>
                 <div className="w-full cursor-pointer hover:opacity-75 transition ease-in">
                     <div>
-                        <Image alt="" src={`https://images.unsplash.com/photo-1573167627769-e201a7ddf409?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80`} width={500} height={300} />
+                        <Image alt="" src={"https://images.unsplash.com/photo-1578269174936-2709b6aeb913?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXdhcmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"} width={500} height={300} />
                     </div>
                     <div className="px-5 py-3">
-                        <h2 className="text-xl xl:text-2xl text-gray-800">Leadership women are often seen as the pillars of their organizations.</h2>
-                        <p className="mt-4 text-gray-600 text-base">Grace Jacobs</p>
+                        <h2 className="text-xl xl:text-2xl text-gray-800 capitalize">Award ceremony for women political aspirants.</h2>
+                        <p className="mt-4 text-gray-600 text-base">26th November, 2022 | 10AM<br></br>Unity Hall, Halal Hotel</p>
                     </div>
                 </div>
             </Link>

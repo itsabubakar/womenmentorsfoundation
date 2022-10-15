@@ -1,4 +1,4 @@
-import Politician from "../components/Politician"
+import Politician from "../../components/Politician"
 
 const awards = () => {
     return (
@@ -260,13 +260,72 @@ const awards = () => {
                         position={"HOR"}
                         cons={"Chikun/Kajuru"}
                     />
-                    {/* <Politician
-                        name={""}
-                        party={""}
-                        position={""}
+                    <Politician
+                        name={"HON. PRINCESS CHICHI OJEI"}
+                        party={"APM"}
+                        position={"Vice President"}
                         cons={""}
-                    /> */}
-
+                    />
+                    <Politician
+                        name={"HON. MAIMUNA MUSA"}
+                        party={"APM"}
+                        position={"Deputy Governor"}
+                        cons={""}
+                    />
+                    <Politician
+                        name={"HON. PATIENCE MALACHY"}
+                        party={"APM"}
+                        position={"HOA"}
+                        cons={"Kachia"}
+                    />
+                    <Politician
+                        name={"HON. ZIPPORAH BIJEH SAMUEL"}
+                        party={"APP"}
+                        position={"Deputy Governor"}
+                        cons={""}
+                    />
+                    <Politician
+                        name={"HON. PAULINA JUMMAI ISHAKU"}
+                        party={"NNPP"}
+                        position={"HOA"}
+                        cons={"Zangon Kataf"}
+                    />
+                    <Politician
+                        name={"HON. LINDA MAGAJI DANLADI"}
+                        party={"NRM"}
+                        position={"Deputy Governor"}
+                        cons={""}
+                    />
+                    <Politician
+                        name={"HON. NAFISA ADAM ALI"}
+                        party={"SDP"}
+                        position={"Vice President"}
+                        cons={""}
+                    />
+                    <Politician
+                        name={"HON. GRACE SANKUT ZUGWAI"}
+                        party={"SDP"}
+                        position={"Deputy Governor"}
+                        cons={""}
+                    />
+                    <Politician
+                        name={"HON. HAJARA LARAI IDRIS"}
+                        party={"SDP"}
+                        position={"Senate"}
+                        cons={"Central Senatorial District"}
+                    />
+                    <Politician
+                        name={"HON. JAMILA MUHAMMAD"}
+                        party={"YPP"}
+                        position={"HOA"}
+                        cons={"Makera "}
+                    />
+                    <Politician
+                        name={"HON. AISHA ABDULJABBAR"}
+                        party={"YPP"}
+                        position={"HOA"}
+                        cons={"Ungwan Sanusi"}
+                    />
                 </div>
             </div>
         </div>
