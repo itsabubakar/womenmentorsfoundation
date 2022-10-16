@@ -26,7 +26,7 @@ const SectionOne = () => {
                     </div>
                 </div>
             </Link>
-            <Link href={'/articles/articleThree'}>
+            {/* <Link href={'/articles/articleOne'}>
                 <div className="w-full cursor-pointer hover:opacity-75 transition ease-in">
                     <div>
                         <Image alt="" src={`https://images.unsplash.com/photo-1487546331507-fcf8a5d27ab3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGJsYWNrJTIwd29tZW4lMjB3b3JraW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60`} width={500} height={300} />
@@ -36,7 +36,7 @@ const SectionOne = () => {
                         <p className="mt-4 text-gray-600 text-base">Fahad Bilyamin</p>
                     </div>
                 </div>
-            </Link>
+            </Link> */}
             <Link href={'/articles/articleFour'}>
                 <div className="w-full cursor-pointer hover:opacity-75 transition ease-in">
                     <div>
