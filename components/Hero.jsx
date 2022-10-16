@@ -9,7 +9,7 @@ const Hero = () => {
                 <div className='max-w-[500px] mx-5'>
                     <h1 className='leading-[45px] xl:leading-tight uppercase text-3xl xl:text-[2.8rem] text-center font-bold text-gray-800'>Welcome to <span className='text-Moody-blue font-serif'>women models & mentors foundation<br />(WMM)</span> </h1>
                     <h2 className='mt-4 xl:mt-2 font-medium text-gray-900 text-2xl xl:text-[1.5rem] text-center'>-A breeding ground for character modification and shaping the minds of young girls and women alike.</h2>
-                    <h2 className='mt-4 font-medium text-gray-900 text-2xl xl:text-[1.5rem] text-center'>-The foundation for womens' rights, human rights, social justice, and environmental sustainability..</h2>
+                    <h2 className='mt-4 font-medium text-gray-900 text-2xl xl:text-[1.5rem] text-center'>-The foundation for women&apos;s rights, human rights, social justice, and environmental sustainability..</h2>
                     <div>
                         <form action="" className='block xl:flex mt-20 xl:gap-x-2'>
                             <div className='w-full mb-4 xl:w-[70%]'>
