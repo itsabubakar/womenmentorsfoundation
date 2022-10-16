@@ -14,9 +14,9 @@ const movement = () => {
             <OtherHeader text={"Together we will create ripples of change"} size={"text-4xl md:text-7xl"} bg={'membership-bg'} />
             <section className="text-2xl flex justify-center mt-28">
                 <div className="max-w-3xl mx-5 md:mx-0 text-center sm:text-left">
-                    <p className="mb-4">We believe that by providing equitable opportunities for women and girls to study, grow, and interact with others, they will be able to reach their full economic potential.</p>
+                    <p className="mb-4">At Women Models and Mentors (WMM), we provide equitable opportunities for women and girls to study, grow, and interact with others, towards reaching their full economic potential.</p>
                     <p className="mb-4">Every opinion is valuable and every idea counts.</p>
-                    <p>We can help build a better future for everybody by working together.</p>
+                    <p>WMM believes that we can help build a better future for everybody by working together.</p>
                 </div>
             </section>
             <Newsletter />

@@ -13,11 +13,9 @@ const AboutText = () => {
                             <p className=""> Our foundation is non-governmental, non-partisan and equips women in the areas of entrepreneurship, coaching, skills acquisition, politics, education, marital counselling, capacity building and a host of other areas.</p>
                             <div className="mt-20">
                                 <h3 className="text-2xl font-medium mb-4">We Educate</h3>
-                                <p className="mb-8">As a social enterprise specializing in storytelling, communications, digital movement building, and meaningful entrepreneurship, we provide digital courses and tailored programs to help aspiring women.</p>
-                                <h3 className="text-2xl font-medium mb-4">We Create</h3>
-                                <p className="mb-8">We employ our imagination and fun approach to provide communications and learning solutions for a diverse variety of partners. We maintain a new and inventive approach with shared principles as our compass, whether it&apos;s bringing young women activists to manage communications at national events or facilitating content creation driven by grassroots visionaries.</p>
+                                <p className="mb-8">We provide digital courses and tailored programs to help aspiring women. As a social enterprise specializing in storytelling, communications, digital movement building, and meaningful entrepreneurship.</p>
                                 <h3 className="text-2xl font-medium mb-4">We Connect</h3>
-                                <p>Creating connections is a cornerstone of solidarity, which is the driving force behind our organization. That is why we bridge the gap between grassroots innovators, link innovators and organizations from all around the world, and form cross-sector relationships. We constantly seek to offer possibilities for interaction and cooperation, whether through our digital marketplace or by collaborating at offline events.</p>
+                                <p>Creating connections is a cornerstone of solidarity, which is the driving force behind our WMM. That is why we bridge the gap between grassroots innovators, link innovators and organizations from all around the world, and form cross-sector relationships. We constantly seek to offer possibilities for interaction and cooperation, whether through our digital marketplace or by collaborating at offline events.</p>
                             </div>
                         </div>
                     </div>

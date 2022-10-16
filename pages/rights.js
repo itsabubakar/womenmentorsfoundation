@@ -15,9 +15,8 @@ const rights = () => {
             </Head>
             <Header
                 title={"Womens' Right"}
-                text={"Laws are being reformed to advance gender equality."} />
-            <SectionTwo text={"Throughout history, women have been underrepresented in leadership roles. However, that's changing in present day Nigeria. Several organizations dedicated to empowering women have sprouted up over the past few decades. These organizations support education for women and promote gender equality in all walks of life. They also work to end gender-based violence and promote women in the political arena. Thanks to these organizations, Nigerian women are leading a revolution for equality."} title={"Women empowerment in Nigeria"} />
-            <SectionTwo text={"One of the most prominent organizations is the Economic Consortium for West Africa (ECWA). Founded in 1966 by Nigerian businesswomen, it advocates for economic independence for African women. The organization conducts Women's Day events where African women talk about their issues and successes as businesswomen. These events help to unite African women and inspire them to achieve greater heights of success."} />
+                text={"Globally, laws are being reformed to advance gender equality."} />
+            <SectionTwo text={"Throughout history, women have been underrepresented in leadership roles. However, that's changing in present day Nigeria. Several organizations dedicated to empowering women have sprouted up over the past few decades. These organizations support education for women and promote gender equality in all walks of life. They also work to end gender-based violence and promote women in the political space. Thanks to these organizations, Nigerian women are leading a revolution for equality."} title={"Women empowerment in Nigeria"} />
             <Newsletter />
         </div>
     )

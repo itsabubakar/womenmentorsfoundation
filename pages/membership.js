@@ -13,9 +13,9 @@ const membership = () => {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <title>Women Model & Mentors&apos; Foundation - Membership</title>
             </Head>
-            <OtherHeader bg={'membership-bg'} text={"Our Membership Programs"} />
+            <OtherHeader bg={'membership-bg'} text={"Membership Programmes"} />
             <MembershipText />
-            <SectionTwo bg={'bg-Sail'} title={"Eligibility"} text={"Women Mentors Foundation is a social enterprise with non-negotiable values. We’ve got high standards for the organizations that publish on our platform. At Women Mentors Foundation, we are hopeful about the change we can bring about in the world - and we believe that everyone has the ability to make a significant difference. That is why solidarity is central to our work. Our members recognize that they, too, must demonstrate solidarity in order to advance our joint effort for a sustainable society in which everyone is free."} />
+            <SectionTwo bg={'bg-Sail'} title={"Eligibility"} text={"Women Models & Mentors Foundation is a social enterprise with non-negotiable values. Women Models & Mentors Foundation, we are hopeful about the change we can bring about in the world - and we believe that everyone has the ability to make a significant difference. That is why solidarity is central to our work. Our members recognize that they, too, must demonstrate solidarity in order to advance our joint effort for a sustainable society in which everyone is free."} />
             <SectionTwo mg={"-mb-20"} text={"Join us, a group of innovators and start making positive long term impacts."} size={"4xl"} underline={'underline decoration-Moody-blue underline-offset-[9px] leading-[50px]'} />
             <Newsletter />
         </div>

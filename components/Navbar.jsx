@@ -19,14 +19,15 @@ const Navbar = () => {
 
                 <ol className="hidden xl:flex pl-10 gap-x-10 items-center uppercase text-gray-700 link-hover text-sm">
                     <li className=""><Link href={'/'}><a className={router.pathname == "/" ? "border-b-2 border-b-Moody-blue pb-2" : ""}>Home</a></Link></li>
-                    <li><Link href={'/rights'}><a className={router.pathname == "/rights" ? "border-b-2 border-b-Moody-blue pb-2" : ""}>Womens&apos; right</a></Link></li>
+                    <li><Link href={'/about'}><a className={router.pathname == "/about" ? "border-b-2 border-b-Moody-blue pb-2" : ""}>About us</a></Link></li>
                     <li><Link href={'/wellness'}><a className={router.pathname == "/wellness" ? "border-b-2 border-b-Moody-blue pb-2" : ""}>Wellness</a></Link></li>
                     <li><Link href={'/movement'}><a className={router.pathname == "/movement" ? "border-b-2 border-b-Moody-blue pb-2" : ""}>Join the movement</a></Link></li>
 
                 </ol>
 
                 <ol className="hidden xl:flex ml-auto gap-x-10 items-center uppercase text-gray-700 link-hover text-sm">
-                    <li><Link href={'/about'}><a className={router.pathname == "/about" ? "border-b-2 border-b-Moody-blue pb-2" : ""}>About</a></Link></li>
+
+                    <li><Link href={'/rights'}><a className={router.pathname == "/rights" ? "border-b-2 border-b-Moody-blue pb-2" : ""}>Women&apos;s right</a></Link></li>
                     <li><Link href={'/membership'}><a className={router.pathname == "/membership" ? "border-b-2 border-b-Moody-blue pb-2" : ""}>Membership</a></Link></li>
                     <li><Link href={'/partnership'}><a className={router.pathname == "/partnership" ? "border-b-2 border-b-Moody-blue pb-2" : ""}>Partnership</a></Link></li>
                     <li><Link href={'/events'}><a className={router.pathname == "/events" ? "border-b-2 border-b-Moody-blue pb-2" : ""}>Events</a></Link></li>
@@ -46,14 +47,15 @@ const Navbar = () => {
 
                     <ol className="flex flex-col gap-y-5 items-center uppercase text-gray-700 link-hover">
                         <li onClick={() => setNav(!nav)}><Link href={'/'}><a className={router.pathname == "/" ? "border-b-2 border-b-Moody-blue" : ""}>Home</a></Link></li>
-                        <li onClick={() => setNav(!nav)}><Link href={'/rights'}><a className={router.pathname == "/rights" ? "border-b-2 border-b-Moody-blue" : ""}>Womens&apos; right</a></Link></li>
+                        <li onClick={() => setNav(!nav)}><Link href={'/about'}><a className={router.pathname == "/about" ? "border-b-2 border-b-Moody-blue" : ""}>About us</a></Link></li>
+
                         <li onClick={() => setNav(!nav)}><Link href={'/wellness'}><a className={router.pathname == "/wellness" ? "border-b-2 border-b-Moody-blue" : ""}>Wellness</a></Link></li>
                         <li onClick={() => setNav(!nav)}><Link href={'/movement'}><a className={router.pathname == "/movement" ? "border-b-2 border-b-Moody-blue" : ""}>Join the movement</a></Link></li>
 
                     </ol>
 
                     <ol className="mt-[45px] flex flex-col gap-y-5 items-center uppercase text-gray-700 link-hover">
-                        <li onClick={() => setNav(!nav)}><Link href={'/about'}><a className={router.pathname == "/about" ? "border-b-2 border-b-Moody-blue" : ""}>About</a></Link></li>
+                        <li onClick={() => setNav(!nav)}><Link href={'/rights'}><a className={router.pathname == "/rights" ? "border-b-2 border-b-Moody-blue" : ""}>Women&apos;s right</a></Link></li>
                         <li onClick={() => setNav(!nav)}><Link href={'/membership'}><a className={router.pathname == "/membership" ? "border-b-2 border-b-Moody-blue" : ""}>Membership</a></Link></li>
                         <li onClick={() => setNav(!nav)}><Link href={'/partnership'}><a className={router.pathname == "/partnership" ? "border-b-2 border-b-Moody-blue" : ""}>Partnership</a></Link></li>
                         <li onClick={() => setNav(!nav)}><Link href={'/events'}><a className={router.pathname == "/events" ? "border-b-2 border-b-Moody-blue" : ""}>Events</a></Link></li>

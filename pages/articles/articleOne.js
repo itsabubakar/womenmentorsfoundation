@@ -3,9 +3,8 @@ import Image from "next/image"
 const articleOne = () => {
   return (
     <div>
-      <div className="relative grid justify-center">
-        <Image alt="" src={`https://images.unsplash.com/photo-1573167627769-e201a7ddf409?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80`} width={600} height={300} />
-        <h1 className="absolute justify-self-center top-1/2 text-white mx-2 text-2xl underline bottom-2 sm:max-w-lg sm:px-5">Leadership women are often seen as the pillars of their organizations.</h1>
+      <div className="grid justify-center">
+        <h1 className="justify-self-center top-1/2 text-white mx-2 text-2xl underline bottom-2 sm:max-w-lg sm:px-5">Leadership women are often seen as the pillars of their organizations.</h1>
       </div>
       <div className="my-20 mx-5 md:mx-0 flex justify-center">
         <div className="max-w-xl">
