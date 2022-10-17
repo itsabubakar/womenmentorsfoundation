@@ -4,8 +4,8 @@ const awards = () => {
     return (
         <div className="grid justify-center">
             <div className="max-w-3xl md:max-w-4xl xl:max-w-5xl my-20">
-                <h2 className="xl:text-xl mb-10 mx-5 md:mx-0">Here are our nominations for the special awards will be given to deserving female political aspirants who contested in the last primary elections across all political parties within Kaduna state irrespective of their political party affiliations.</h2>
-                <div className="justify-center flex flex-wrap gap-x-5 gap-y-10
+                <h2 className="mx-10 xl:text-xl mb-10 md:mx-0">Here are our nominations for the special awards will be given to deserving female political aspirants who contested in the last primary elections across all political parties within Kaduna state irrespective of their political party affiliations.</h2>
+                <div className="mx-10 sm:justify-center flex flex-wrap gap-x-5 gap-y-10
             ">
                     <Politician
                         name={"HAJIYA TALATU SHEHU "}

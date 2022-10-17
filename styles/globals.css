@@ -42,9 +42,10 @@ body {
 }
 
 .membership-bg {
-    background-image: url('/images/img-3.jpg');
+    /* background-image: url('/images/img-3.jpg'); */
+    background-image: url('/images/hero.jpg');
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: 50% 20%;
     background-size: cover;
     height: 500px;
 }

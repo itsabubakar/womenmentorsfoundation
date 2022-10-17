@@ -1,5 +1,8 @@
 import Image from 'next/image'
 import hero from '../public/images/hero.jpg'
+import hb from '../public/images/hb.jpeg'
+import hbOne from '../public/images/hb-1.jpeg'
+import hbTwo from '../public/images/hb-2.jpeg'
 import { BsArrowDownShort } from 'react-icons/bs'
 
 const Hero = () => {
@@ -25,7 +28,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className=''>
-                    <Image src={hero} width={500} height={400} className='xl:rounded' alt='hero img' />
+                    <Image src={hbTwo} width={500} height={500} className='xl:rounded' alt='hero img' />
                 </div>
             </div>
             <BsArrowDownShort className='justify-self-center mt-14 text-gray-700' size={30} />
