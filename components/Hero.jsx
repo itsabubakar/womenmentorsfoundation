@@ -29,6 +29,11 @@ const Hero = () => {
                 </div>
                 <div className=''>
                     <Image src={hbTwo} width={500} height={500} className='xl:rounded' alt='hero img' />
+                    <div className='pt-5'>
+                        <h3 className='text-2xl border-l-2 border-blue-900 pl-5'>Hajiya Bilkisu Abba Ibrahim</h3>
+                        <p className='text-lg pl-5 italic'>Founder/President</p>
+                        <p className='text-lg pl-5'>Women Models & Mentors Foundation</p>
+                    </div>
                 </div>
             </div>
             <BsArrowDownShort className='justify-self-center mt-14 text-gray-700' size={30} />
