@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <title>Women Mentors & Models Foundation - Homepage</title>
       </Head>
-      <main>
+      <main className=''>
         <Hero />
         <SectionTwo bg={'bg-fi'} title={'Who we are'} text={"Our foundation is non-governmental, non-partisan and equips women in the areas of entrepreneurship, coaching, skills acquisition, politics, education, marital counselling, capacity building and a host of other areas."} />
         <SectionTwo text={"WMM members are role models, mentors and other progressive women drawn from different sectors of the society"} size={"4xl"} underline={'underline decoration-Moody-blue underline-offset-[9px] leading-[50px]'} />

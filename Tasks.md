@@ -1,0 +1,5 @@
+- [] Finish working on navbar
+- [] Remove unnecessary content and restructure paticular pages
+- [] Build voting page and link to firebase
+- [] Build result page, show number of voters
+- [] Write article on upcoming events
