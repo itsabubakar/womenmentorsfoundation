@@ -19,7 +19,6 @@ const About = () => {
             </Head>
             <OtherHeader bg={"about-bg"} src={img} text={"This is Women Mentors Foundation"} />
             <AboutText />
-            <Newsletter />
         </div>
     )
 }

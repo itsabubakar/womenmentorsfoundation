@@ -18,8 +18,7 @@ const rights = () => {
                 title={"Wellness"}
                 text={"Women Models & Mentors Foundation (WMM) is on an active quest for activities, choices, and lifestyles that lead to overall health for girls and women."} />
             <SectionTwo text={"WMM is chiefly concerned with wellness of women, the pioneer president(Hajiya Bilkisu Abba Ibrahim) has initiated several partnerships initiatives and collaborations that encourage and promote awareness in women wellness.The most recent partnership on 14th october, 2022 WMM signed a 3 year partnership program with halal wellness to help WMM members rejuvenate their overall well being for improved mind, body and soul. WMM members have commenced registration and participation with remarkable results already witnessed."} title={'Women wellness'} />
-            <SectionTwo bg={'bg-fi'} text={"One of the most important aspects of women's wellness is staying hydrated. Too often, women don't drink enough water and end up feeling thirsty and tired. Not drinking enough water can lead to dehydration, which can cause fatigue, headaches, and an upset stomach. It's important to drink at least eight glasses of water a day."} />
-            <Newsletter />
+
         </div>
     )
 }
