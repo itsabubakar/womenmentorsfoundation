@@ -1,7 +1,8 @@
 - [x] Finish working on navbar
 - [x] Remove unnecessary content and restructure paticular pages
-- [] Switch fonts
-- [] Starting from home page, move page by page and restyle
+- [x] Switch fonts
+- [x] Starting from home page
+- [] Move page by page and restyle and clean up pages
 - [] Write article on upcoming events
 - [] Build voting page and link to firebase
 - [] Build result page, show number of voters

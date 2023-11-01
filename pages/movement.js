@@ -1,4 +1,3 @@
-import Newsletter from "../components/Newsletter"
 import OtherHeader from "../components/OtherHeader"
 import Head from "next/head"
 
@@ -19,7 +18,6 @@ const movement = () => {
                     <p>WMM believes that we can help build a better future for everybody by working together.</p>
                 </div>
             </section>
-            <Newsletter />
         </div>
     )
 }

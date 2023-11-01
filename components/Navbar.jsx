@@ -43,7 +43,7 @@ const Navbar = () => {
                     <div>
                         <ul className="hidden lg:flex items-center  gap-8 capitalize">
                             {navlinks.map((link) => (
-                                <li className={` ${router.pathname === link.href ? 'underline decoration-wavy decoration-Moody-blue  duration-500' : ''}`} key={link.label}>
+                                <li className={` ${router.pathname === link.href ? 'underline decoration-wavy decoration-pink-500 underline-offset-[4px]  duration-500' : ''}`} key={link.label}>
                                     <Link href={link.href}>{link.label}</Link>
                                 </li>
                             ))}

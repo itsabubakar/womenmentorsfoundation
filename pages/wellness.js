@@ -1,5 +1,4 @@
 import Header from "../components/Header"
-import Newsletter from "../components/Newsletter"
 import WellnessConc from "../components/WellnessConc"
 import Head from "next/head"
 import SectionTwo from "../components/SectionTwo"

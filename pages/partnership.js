@@ -1,4 +1,3 @@
-import Newsletter from "../components/Newsletter"
 import OtherHeader from "../components/OtherHeader"
 import PartnershipText from "../components/PartnershipText"
 import SectionTwo from "../components/SectionTwo"

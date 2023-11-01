@@ -1,12 +1,23 @@
+import Image from "next/image"
 
 
-const SectionTwo = ({ bg, text, title, size, underline, mg }) => {
+const SectionTwo = ({ imgSrc, text, title, frr }) => {
     return (
-        <div className={`${bg} ${mg ? mg : ''} flex justify-center items-center xl:py-20 xl:px-20 p-8`}>
-            <div className="bg-white max-w-[800px] p-10 rounded">
-                <h2 className="text-2xl text-center font-semibold text-gray-800">{title}</h2>
-                <p className={`mt-5 text-gray-800 text-center font-medium text-${size} ${underline ? underline : ''}`}>{text}</p>
+        <div className={` ${frr ? 'flex-col lg:flex-row-reverse' : 'flex-col lg:flex-row'}  px-5 lg:px-0 flex items-center justify-center gap-16 py-10 `}>
+            <div className=" max-w-[528px]">
+                <Image src={imgSrc} alt="" className="rounded w-full h-full lg:w-[300px] lg:h-[150px]" />
             </div>
+
+            <div className="max-w-[500px] px-5 lg:px-0">
+
+                <div className="pb-2">
+                    <h2 className={`pb-3 text-3xl font-open-sans font-semibold underline decoration-wavy decoration-pink-500 underline-offset-[10px]`}>{title}</h2>
+                </div>
+
+                <p className={`text-xl`}>{text}</p>
+
+            </div>
+
         </div>
     )
 }
