@@ -2,11 +2,11 @@
 - [x] Remove unnecessary content and restructure paticular pages
 - [x] Switch fonts
 - [x] Starting from home page
-- [] fix navbar shadows
+- [x] fix navbar shadows
 - [x] spacing too much in our vision section bellow img in mobile
 - [x] add small margin under article tags
-- [] Move page by page and restyle and clean up pages
-- [] Write article on past event
+- [x] Move page by page and restyle and clean up pages
+- [] clean up article on past event
 - [] Write article on upcoming event
 - [] Build voting page and link to firebase
 - [] Build result page, show number of voters

@@ -17,7 +17,7 @@ const rights = () => {
             <main>
                 <OtherHeader text={"Women's Right"} />
                 <section className="px-5 max-w-5xl mx-auto">
-                    <p className="mb-8 text-xl py-10">Throughout history, women have been underrepresented in leadership roles. However, that's changing in present day Nigeria. Several organizations dedicated to empowering women have sprouted up over the past few decades. These organizations support education for women and promote gender equality in all walks of life. They also work to end gender-based violence and promote women in the political space. Thanks to these organizations, Nigerian women are leading a revolution for equality.</p>
+                    <p className="mb-8 text-xl py-10">Throughout history, women have been underrepresented in leadership roles. However, that&apos;s changing in present day Nigeria. Several organizations dedicated to empowering women have sprouted up over the past few decades. These organizations support education for women and promote gender equality in all walks of life. They also work to end gender-based violence and promote women in the political space. Thanks to these organizations, Nigerian women are leading a revolution for equality.</p>
                 </section>
             </main>
 

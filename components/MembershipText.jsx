@@ -1,7 +1,7 @@
 
 const MembershipText = () => {
     return (
-        <div className="">
+        <div >
             <section className="grid justify-center px-8 md:px-0">
                 <div className="max-w-3xl my-20 grid">
                     <h2 className="text-3xl text-center md:text-left font-medium leading-[40px] ">We help activists, advocates, specialists, and organizations by amplifying their voices. </h2>
