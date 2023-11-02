@@ -1,7 +1,5 @@
 import MembershipText from "../components/MembershipText"
-import Newsletter from "../components/Newsletter"
 import OtherHeader from "../components/OtherHeader"
-import SectionTwo from "../components/SectionTwo"
 import Head from "next/head"
 
 const membership = () => {
@@ -13,7 +11,7 @@ const membership = () => {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <title>Women Model & Mentors&apos; Foundation - Membership</title>
             </Head>
-            <OtherHeader bg={'membership-bg'} text={"Membership Programmes"} />
+            <OtherHeader text={"Membership Programmes"} />
             <MembershipText />
 
 
