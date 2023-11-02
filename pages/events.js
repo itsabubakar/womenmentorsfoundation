@@ -11,7 +11,7 @@ const events = () => {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <title>Women Model & Mentors&apos; Foundation - Upcoming Events</title>
             </Head>
-            <OtherHeader text={"Upcoming Events"} bg={'event-bg'} />
+            <OtherHeader text={"Upcoming Events"} />
             <Events />
         </div>
     )

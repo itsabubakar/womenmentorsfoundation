@@ -16,7 +16,7 @@ const About = () => {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <title>Women Models & Mentors&apos; Foundation - About us</title>
             </Head>
-            <OtherHeader bg={"about-bg"} text={"This is Women Mentors Foundation"} />
+            <OtherHeader text={"This is Women Mentors Foundation"} />
             <AboutText />
         </div>
     )

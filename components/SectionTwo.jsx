@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const SectionTwo = ({ imgSrc, text, title, frr }) => {
     return (
-        <div className={` ${frr ? 'flex-col lg:flex-row-reverse' : 'flex-col lg:flex-row'}  px-5 lg:px-0 flex items-center justify-center gap-16 py-10 `}>
+        <div className={` ${frr ? 'flex-col lg:flex-row-reverse' : 'flex-col lg:flex-row'}  px-5 lg:px-0 flex items-center justify-center gap-12 md:gap-16 py-10 `}>
             <div className=" max-w-[528px]">
                 <Image src={imgSrc} alt="" className="rounded w-full h-full lg:w-[300px] lg:h-[150px]" />
             </div>
