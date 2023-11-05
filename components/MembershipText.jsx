@@ -13,7 +13,6 @@ const MembershipText = () => {
                     <p className="mb-8 text-xl">Women Models & Mentors Foundation is a social enterprise with non-negotiable values. Women Models & Mentors Foundation, we are hopeful about the change we can bring about in the world - and we believe that everyone has the ability to make a significant difference. That is why solidarity is central to our work. Our members recognize that they, too, must demonstrate solidarity in order to advance our joint effort for a sustainable society in which everyone is free..</p>
                 </div>
             </section>
-
         </div>
     )
 }

@@ -5,7 +5,7 @@ const ArticleLink = ({ link, tag, title, date, time, loc, ArticleImg }) => {
     return (
         <Link href={link}>
             <div className="border-b border-gray-300 pb-4 flex justify-between w-full cursor-pointer hover:opacity-75 transition ease-in  gap-2 items-center md:gap-0 py-3">
-                <div className="">
+                <div className="w-[90%]">
                     {
                         tag == 'upcoming' && <h3 className="capitalize bg-pink-500 font-bold border-b w-fit text-white px-1 py-1 text-xs mb-1">upcoming event</h3>
                     }

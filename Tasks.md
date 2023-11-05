@@ -6,7 +6,8 @@
 - [x] spacing too much in our vision section bellow img in mobile
 - [x] add small margin under article tags
 - [x] Move page by page and restyle and clean up pages
-- [] clean up article on past event
-- [] Write article on upcoming event
+- [x] clean up article on past event
+- [x] Write article on upcoming event
+- [x] Write article on visit to house of rep member
 - [] Build voting page and link to firebase
 - [] Build result page, show number of voters
